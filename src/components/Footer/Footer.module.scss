@@ -1,0 +1,6 @@
+@use "../../styles/variables" as *;
+@use "../../styles/Placeholder" as *;
+
+.footerContainer{
+    background-color: $color-dark;
+}
