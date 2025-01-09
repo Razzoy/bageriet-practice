@@ -63,6 +63,7 @@ export function FrontPage() {
                     text={item.teaser}
                     imgSrc={item.image.fullpath}
                     numberComments={item.num_comments}
+                    id={item.id}
                   />
                 );
               })}
