@@ -1,0 +1,16 @@
+.productDescription {
+    align-self: start;
+    img {
+      float: left;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+  
+    p {
+      text-wrap: wrap;
+      text-align: justify;
+    }
+  }

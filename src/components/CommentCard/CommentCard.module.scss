@@ -1,0 +1,27 @@
+.commentCard{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #28282833;
+
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        padding: 32px;
+    }
+
+    div{
+        h5{
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+        p:nth-child(2){
+            font-size: 0.8rem;
+        }
+    }
+}

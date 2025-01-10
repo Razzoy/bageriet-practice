@@ -23,8 +23,6 @@ export function ProductMenu({ setId }) {
     }
   }, [isLoading]);
 
-  
-
   return (
     <aside className={style.sideBar}>
       <ul>

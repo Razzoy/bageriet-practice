@@ -1,0 +1,13 @@
+.breadcrumb {
+    border: solid 1px rgba(40, 40, 40, 0.2);
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 42px;
+    margin-top: 16px;
+    p {
+      margin-left: 8px;
+    }
+  }
