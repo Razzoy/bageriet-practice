@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function useGet(url, token) {
+export function useGet(url, token, param) {
   const [data, setData] = useState();
   const [error, setError] = useState();
   const [isLoading, setIsLoading] = useState();
@@ -21,7 +21,7 @@ export function useGet(url, token) {
       .then((data) => setData(data))
       .catch((err) => setError(err))
       .finally(() => setIsLoading(false));
-  }, [url]);
+  }, [url, param]);
 
   return { data, error, isLoading };
 }

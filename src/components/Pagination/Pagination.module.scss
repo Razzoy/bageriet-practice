@@ -1,0 +1,33 @@
+@use '../../styles/variables' as *;
+
+.paginationStyling{
+    display: flex;
+    flex-direction: row;
+
+
+    button:nth-child(1){
+        @extend span;
+        img{
+            width: 100%;
+            opacity: 0.3;
+            transform: rotate(180deg);
+        }
+    }
+    span{
+        width: 24px;
+        height: 24px;
+        padding: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px #28282833;
+    }
+
+    button{
+        @extend span;
+        img{
+            width: 100%;
+            opacity: 0.3;
+        }
+    }
+}
